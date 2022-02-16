@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\sbsir\Downloads\Simple-Cpp-Setup-main\Simple-Cpp-Setup-main Select CMakeLists.txt

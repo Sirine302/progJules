@@ -29,6 +29,12 @@
 - Différence entre une struct et une class : une classe devrait faie plus qu'avoir juste des getters et setters (ca c'est plutot une struct). 
 - Utiliser des free functions dès que possible. Garder une class concise (même idée véhiculée)
 - Méthodes publiques = pour accès à membres privés ⚠️ sinon utilisation free functions
+- Struct = pour grouper données (point 2D cord y, x)
+- Faire des fonctions courtes (autant que possible)
+- Moyens d'éviter les répétitions : boucles, fonctions, template, struct, class, macro??bof
+- Enum class mieux que enum car plus explicite 
+- Diviser pour mieux régner ⚠️
+- Héritage seulement si vraiment nécessaire (à remplacer par fonctions ou composition si possible)
 
 ### Level 3 - ❌
 ❌ std::vector <br/>

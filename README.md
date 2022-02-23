@@ -1,9 +1,9 @@
 # Sirine BRADAI
 ## Réalisation des TP
 
-### Level 1 fini ✅
-✅ Install a compiler
-✅ Use an IDE
+### Level 1 fini ✅  <br/>
+✅ Install a compiler  <br/>
+✅ Use an IDE  <br/>
 ✅ Use Git
 ✅ Use a debugger
 ✅ Use a formatting tool

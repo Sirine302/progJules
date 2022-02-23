@@ -50,7 +50,7 @@
 [...]
 
 ## Avancement des TP - en cours 🔃
-🔃 Guess the number <br/>
+✅ Guess the number <br/>
 🔃 Hangman <br/>
 🔃 Adding a menu <br/>
 🔃 Noughts and Crosses <br/>

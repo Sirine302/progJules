@@ -41,7 +41,7 @@
 ✅ Documentation <br/>
 ✅ Use libraries <br/>
 ✅ assert <br/>
-❌ auto <br/>
+✅ auto <br/>
 ❌ Testing <br/>
 ❌ Type design <br/>
 ❌ Dependencies <br/>
@@ -57,6 +57,8 @@
 - ajouter les librairies dans le cmake
 - lire la documentation pour gagner du tps
 - assert = debugging tool pour les fonctions, pas de consomation, pendant runtime vs static assert pendant compilation
+- auto pour remplacer le nom de type long
+- 
 
 ## Avancement des TP - en cours 🔃
 ✅ Guess the number <br/>

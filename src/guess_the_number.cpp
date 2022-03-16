@@ -3,27 +3,8 @@
 //
 #include "guess_the_number.h"
 #include <iostream>
-#include <random>
-
-/// Returns a random int between min (included) and max (included)
-int rand(int min, int max)
-{
-    static std::default_random_engine  generator{std::random_device{}()};
-    std::uniform_int_distribution<int> distribution{min, max};
-    return distribution(generator);
-}
-
-/// Blocks until the user inputs an int in the console
-int get_int_from_user()
-{
-    int n; // NOLINT
-    while (!(std::cin >> n)) {
-        std::cin.clear(); // The user did not input a number so we need
-        std::cin.sync();  // to clear cin and try again
-        std::cout << "This is not a number, try again!\n";
-    }
-    return n;
-}
+#include "get_input_from_user.h"
+#include "rand.h"
 
 void play_guess_the_number()
 {
@@ -35,7 +16,7 @@ void play_guess_the_number()
     // Ask the user for a guess
     bool finished = false;
     while (!finished) {
-        const int user_guess = get_int_from_user();
+        const int user_guess = get_input_from_user<int>();
         if (user_guess < number_to_guess) {
             std::cout << "Greater\n";
         }

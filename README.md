@@ -37,22 +37,31 @@
 - Héritage seulement si vraiment nécessaire (à remplacer par fonctions ou composition si possible)
 
 ### Level 3 - ❌
-❌ std::vector <br/>
-❌ Documentation <br/>
-❌ Use libraries <br/>
-❌ assert <br/>
+✅ std::vector <br/>
+✅ Documentation <br/>
+✅ Use libraries <br/>
+✅ assert <br/>
 ❌ auto <br/>
 ❌ Testing <br/>
 ❌ Type design <br/>
 ❌ Dependencies <br/>
 ❌ Lambda functions <br/>
 ❌ Master your IDE <br/>
-[...]
+[...] <br/>
+#### Notes :
+- std::vecotr meilleur conteneur (rapidité)
+- documenting : key points : décrire l'utilisation des fonctions quand nécessaire pas forcément automatique + donner des exemples
+- doxygen = website documentation mais pas beau possibilité de compléter avec sphinx
+- possibilité de faire un readme pour documenter chaque folder (= un module)
+- build from source -> utiliser un git submodule
+- ajouter les librairies dans le cmake
+- lire la documentation pour gagner du tps
+- assert = debugging tool pour les fonctions, pas de consomation, pendant runtime vs static assert pendant compilation
 
 ## Avancement des TP - en cours 🔃
 ✅ Guess the number <br/>
-🔃 Hangman <br/>
-🔃 Adding a menu <br/>
+✅ Hangman <br/>
+✅ Adding a menu <br/>
 🔃 Noughts and Crosses <br/>
 🔃 Connect 4 <br/>
 🔃 Adding tests <br/>

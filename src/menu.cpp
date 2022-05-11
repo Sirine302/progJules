@@ -9,6 +9,8 @@
 #include "hangman.h"
 #include "guess_the_number.h"
 
+#include "noughts_and_crosses.h"
+
 struct Game {
     std::string           name;
     std::function<void()> play;
@@ -17,6 +19,7 @@ struct Game {
 static const std::unordered_map<char, Game> games{
         {'1', {"Guess the Number", &play_guess_the_number}},
         {'2', {"Hangman", &play_hangman}},
+        {'3', {"noughts and cosses", &play_noughts_and_crosses}},
 
 };
 
